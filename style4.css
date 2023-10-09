@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+   
+} 
+
+* a{
+    text-decoration: none;
+}
+
+* li{
+    list-style: none;
+}
+
+.conten{
+    position: relative;
+    min-height: 400vh;
+}
+
+.box{
+    padding: 20px;
+    width: 1520px;
+    height: 200px;
+    background: -webkit-linear-gradient(left, #f48fb1, #483D8B); 
+    background: -o-linear-gradient(right, #f48fb1, #483D8B);
+    background: -moz-linear-gradient(right, #f48fb1,   #483D8B); 
+    background: linear-gradient(to right, #f48fb1, #483D8B);
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    list-style: none; 
+    align-items: center;
+    margin: 0 30px;
+}
+
+ .menu ul{
+   display: flex;
+   font-size: 20px;
+}
+
+.menu ul li{
+    margin: 0 50px;
+}
+
+.menu ul li a{
+    font-weight: bold;
+    color: white;
+}
+
+.dropbtn {
+    display: inline-block;
+    width: 200px;
+    height: 75px;
+    margin-top: 20%;
+    margin-left: 20%;
+    border: 3px solid transparent;
+    background: -webkit-linear-gradient(left, #00FF00 , #33FFCC); 
+    background: -o-linear-gradient(right, #00FF00, #33FFCC); 
+    background: -moz-linear-gradient(right, #00FF00, #33FFCC); 
+    background: linear-gradient(to right, #00FF00, #33FFCC);  
+    font-weight: bold;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #E6E6FA;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 30px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background: -webkit-linear-gradient(-90deg, #ad1457, #0099FF); 
+    background: -o-linear-gradient(-90deg, #ad1457, #0099FF); 
+    background: -moz-linear-gradient(-90deg, #ad1457, #0099FF);
+    background: linear-gradient(-90deg, #ad1457, #0099FF);
+    color: white;
+    border-radius: 30px;
+}
+
+.dropdown:hover .dropdown-content {
+   
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #333366;
+}
+
+.record{
+    position: relative;
+    display: block;
+    width: 1370px;
+    padding: 0 2%;
+    left: 10%;
+} 
+
+.record h3{
+    display: block;
+    margin: 50px auto;
+    height: 80%;
+    font-size: 50px;
+}
+
+.record  h3 i{
+    color: #330033;
+}
+
+.record .wwo {
+    display: block;
+    margin: 20px 120px;
+    font-size: 20px;
+}
+
+.record .wwo1 {
+    display: block;
+    margin: 20px 120px;
+    font-size: 20px;
+}
+
+.record .wwo2 {
+    display: block;
+    margin: 20px 120px;
+    font-size: 20px;
+}
+
+.record .wwo3{
+    display: block;
+    margin: 20px 120px;
+    font-size: 20px;
+}
+
+.record .wwo4{
+    display: block;
+    margin: 20px 120px;
+    font-size: 20px;
+}
+
+.tail{
+    display: block;
+    color: white;
+    background: -webkit-linear-gradient(left, #000000, #483D8B); 
+    background: -o-linear-gradient(right, #000000, #483D8B);
+    background: -moz-linear-gradient(right, #000000,   #483D8B); 
+    background: linear-gradient(to right, #000000, #483D8B);
+}
+.tail h1{
+    display: block;
+    padding: 2%;
+    text-align: center;
+
+}
+
+.hail1 {
+    display: flex;
+    margin: auto 1%;
+    width: 80%;
+    padding: 1%;
+    font-size: 10px;
+    text-align: center;
+}
+
+.hail2{
+    display: flex;
+    margin: auto 5%;
+    width: 15%;
+    padding: 1%;
+    text-align: left;
+}
+ 
+.hail2 h4{
+    margin-left: 0.5%;
+    text-align: center;
+}
+
+.hail3{
+    display: flex;
+    width: 15%;
+    padding: 1%;
+    text-align: left;
+    margin: auto 5%;
+}
+
+.hail3 h4{
+    margin-left: 0.5%;
+}
+
+.hail4{
+    display: flex;
+    width: 15%;
+    padding: 1%;
+    text-align: left;
+    margin: auto 5%;
+}
+
+.hail4 h4{
+    margin-left: 0.5%;
+}
+
+.hail5{
+    display: flex;
+    width: 15%;
+    padding: 1%;
+    text-align: left;
+    margin: auto 5%;
+}
+
+.hail5 h4{
+    margin-left: 0.5%;
+}

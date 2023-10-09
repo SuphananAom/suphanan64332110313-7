@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+   
+}
+
+* a{
+    text-decoration: none;
+}
+
+
+* li{
+    list-style: none;
+}
+
+.conten{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.conten::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://storage-wp.thaipost.net/2021/12/269613134_5027291213955868_1295230593287059802_n.jpg');
+    background-repeat: repeat-x; 
+    z-index: -2;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(25%);
+    color: black;
+    
+
+}
+
+.box{
+    display: block;
+    width: 90%;
+    height: 100%;
+    padding: 5%;
+    
+}
+
+.logo{
+    display: block;
+    font-size: 36px;
+    
+}
+
+.logo a{
+    color: white;
+    font-size: 60px;
+    padding: 20px;
+}
+
+.menu{
+    display: block;
+}
+
+.menu ul{
+    display: flex;   
+    margin-left: 65%;
+}
+
+.menu li{
+    margin-left: 70%;
+}
+
+.menu a{
+    display: block;
+    background: -webkit-linear-gradient(-90deg, #0000, #660066); 
+    background: -o-linear-gradient(-90deg, #0000, #660066); 
+    background: -moz-linear-gradient(-90deg, #0000, #660066);
+    background: linear-gradient(-90deg, #0000, #660066);
+    text-align: center;
+    padding: 20%;
+    width: 250%;
+    border-radius: 40px;
+   color: white; 
+}
+
+.menu a:hover{
+    background: -webkit-linear-gradient(-90deg, #f48fb1, #20B2AA); 
+    background: -o-linear-gradient(-90deg, #f48fb1, #20B2AA); 
+    background: -moz-linear-gradient(-90deg, #f48fb1, #20B2AA);
+    background: linear-gradient(-90deg, #f48fb1, #20B2AA);
+    color: white;
+}
+
+.box1{
+    display: block;
+    background: -webkit-linear-gradient(left, #00FA9A, #f48fb1); 
+    background: -o-linear-gradient(right, #00FA9A, #f48fb1);
+    background: -moz-linear-gradient(right, #00FA9A, #f48fb1); 
+    background: linear-gradient(to right , #00FA9A, #f48fb1);
+}
+
+.suby{
+    display: block;
+}
+.sub {
+    display: flex;
+    margin-right: 20%;
+    text-align: center;
+}
+
+.sub p{
+    display: block;
+    margin-left: 10%;
+    width: 500px;
+    margin-top: 10%;
+    
+}
+.sub img{
+    display: block;
+    margin: 5% 5%;
+    height: 10%;
+    width: 450px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.box2{
+    display: flex;
+    height: 500px;
+}
+
+.subm{
+    display: block;
+    width: 30%;
+    margin: 3% 1%;
+    text-align: center;
+    background: -webkit-linear-gradient(left, #87cefa, #fce4ec); 
+    background: -o-linear-gradient(right, #87cefa, #fce4ec);
+    background: -moz-linear-gradient(right, #87cefa, #fce4ec); 
+    background: linear-gradient(to right, #87cefa, #fce4ec);
+     border-radius: 35px;
+}
+
+.subm li{
+    font-size: 20px;
+    margin-top: 10%;
+}
+.subm a{
+    color: #000;
+    font-weight: bold;
+}
+.subm a:hover{
+    color: #191970;
+}
+
+.subm img{
+    display: block;
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    margin-left: 13%;
+    margin-top: 20%;
+} 
+
+.subm1{
+    display: block;
+    width: 30%;
+    margin: 3% 1%;
+    text-align: center;
+    background: -webkit-linear-gradient(left, #87cefa, #fce4ec); 
+    background: -o-linear-gradient(right, #87cefa, #fce4ec);
+    background: -moz-linear-gradient(right, #87cefa, #fce4ec); 
+    background: linear-gradient(to right, #87cefa, #fce4ec);
+     border-radius: 35px;
+}
+
+.subm1 li{
+    font-size: 20px;
+    margin-top: 10%;
+}
+.subm1 a{
+    color: #000;
+    font-weight: bold;
+}
+.subm1 a:hover{
+    color: #191970;
+}
+
+.subm1 img{
+    display: block;
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    margin-left: 13%;
+    margin-top: 20%;
+}
+
+.subm2{
+    display: block;
+    width: 30%;
+    margin: 3% 1%;
+    text-align: center;
+    background: -webkit-linear-gradient(left, #87cefa, #fce4ec); 
+    background: -o-linear-gradient(right, #87cefa, #fce4ec);
+    background: -moz-linear-gradient(right, #87cefa, #fce4ec); 
+    background: linear-gradient(to right, #87cefa, #fce4ec);
+     border-radius: 35px;
+}
+
+.subm2 li{
+    font-size: 20px;
+    margin-top: 10%;
+}
+.subm2 a{
+    color: #000;
+    font-weight: bold;
+}
+.subm2 a:hover{
+    color: #191970;
+}
+
+.subm2 img{
+    display: block;
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    margin-left: 13%;
+    margin-top: 20%;
+}
+
+.subm3{
+    display: block;
+    width: 30%;
+    margin: 3% 1%;
+    text-align: center;
+    background: -webkit-linear-gradient(left, #87cefa, #fce4ec); 
+    background: -o-linear-gradient(right, #87cefa, #fce4ec);
+    background: -moz-linear-gradient(right, #87cefa, #fce4ec); 
+    background: linear-gradient(to right, #87cefa, #fce4ec);
+     border-radius: 35px;
+}
+
+.subm3 li{
+    font-size: 20px;
+    margin-top: 10%;
+}
+.subm3 a{
+    color: #000;
+    font-weight: bold;
+}
+.subm3 a:hover{
+    color: #191970;
+}
+
+.subm3 img{
+    display: block;
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    margin-left: 13%;
+    margin-top: 20%;
+}
+
+.tail{
+    display: block;
+    color: white;
+    background: -webkit-linear-gradient(left, #191970, #483D8B); 
+    background: -o-linear-gradient(right, #191970, #483D8B);
+    background: -moz-linear-gradient(right, #191970,   #483D8B); 
+    background: linear-gradient(to right, #191970, #483D8B);
+}
+.tail h1{
+    display: block;
+    padding: 2%;
+    text-align: center;
+
+}
+
+.hail1 {
+    display: flex;
+    margin: auto 1%;
+    width: 100%;
+    padding: 1%;
+    font-size: 10px;
+    text-align: center;
+}
+
+.hail2{
+    display: flex;
+    margin: auto 5%;
+    width: 15%;
+    padding: 1%;
+    text-align: left;
+}
+ 
+.hail2 h4{
+    margin-left: 0.5%;
+    text-align: center;
+}
+
+.hail3{
+    display: flex;
+    width: 15%;
+    padding: 1%;
+    text-align: left;
+    margin: auto 5%;
+}
+
+.hail3 h4{
+    margin-left: 0.5%;
+}
+
+.hail4{
+    display: flex;
+    width: 15%;
+    padding: 1%;
+    text-align: left;
+    margin: auto 5%;
+}
+
+.hail4 h4{
+    margin-left: 0.5%;
+}
+
+.hail5{
+    display: flex;
+    width: 15%;
+    padding: 1%;
+    text-align: left;
+    margin: auto 5%;
+}
+
+.hail5 h4{
+    margin-left: 0.5%;
+}

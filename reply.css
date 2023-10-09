@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: "Lucida Console", Monospace;
+   
+}
+
+.boby{
+    font-size:  50%; 
+    width: 100%;
+    height: 100%;
+}
+
+* a{
+    text-decoration: none;
+}
+
+
+* li{
+    list-style: none;
+}
+
+.box{
+    display: block;
+    height: 450px;
+    width: 1529px;
+    position: relative;
+}
+
+.box::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.matichon.co.th/wp-content/uploads/2019/11/%E0%B8%AB%E0%B8%99%E0%B8%B8%E0%B8%A1%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%9C%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B8%A5%E0%B8%87%E0%B8%81%E0%B8%B2.jpg');
+    background-repeat: repeat-x; 
+    z-index: -2;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(25%);
+}
+
+.logo {
+    display: block;
+    padding: 5%;
+    font-size: 110px;
+    margin-left: 5%;
+    background-image: url(https://i.pinimg.com/originals/56/ed/73/56ed73478bb7e2ba0f3268088d4f27ab.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 150px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu ul{
+    display: flex;
+    margin-top: 6%;
+    margin-left: 60%;
+    
+
+}
+
+.menu ul li{
+    display: block;
+    width: 100px;
+    margin-left: 10%;
+    text-align: center;
+    border-radius: 35px;
+}
+
+.menu ul li:hover{
+    display: block;
+    width: 100px;
+    margin-left: 10%;
+    text-align: center;
+    border-radius: 35px;
+}
+
+.menu ul li a{
+    color: white;
+    font-weight: bolder;
+}
+
+.main-content{
+    display: block;
+    width: 1529px;
+    height: 3000px;
+    background: -webkit-linear-gradient(-90deg, #ec407a, #738ffe); 
+    background: -o-linear-gradient(-90deg, #ec407a, #738ffe); 
+    background: -moz-linear-gradient(-90deg, #ec407a, #738ffe);
+    background: linear-gradient(-90deg, #ec407a, #738ffe);
+}
+
+main{
+    display: block;
+    padding: 20%;
+}
+.post{
+    display: block;
+    margin-left: 5%;
+    width: 80%;
+    padding: 5%;
+    background: black;
+    border-radius: 40px;
+    color: white;
+}
+.post h2{
+    display: block;
+    width: 50%;
+    font-size: 50px;
+    margin-left: 45%;
+}
+
+.post p{
+    display: block;
+    width: 50%;
+    margin-left: 10%;
+    font-size: 20px;
+    margin: 5% auto;
+}
+
+.post a{
+    display: block;
+    width: 50%;
+    margin-left: 10%;
+    font-size: 20px;
+    margin: 5% auto;
+    font-size: 15px;
+}
+
+.replies{
+    display: block;
+    margin-top: 5%;
+    margin-left: 5%;
+    color: white;
+}
+
+.reply{
+    display: block;
+    margin: 3% auto;
+    font-size: 20px;
+}
+.reply i{
+    margin: 1% 1%;
+    font-size: 10px;
+}
+
+.reply a{
+    font-size: 14px;
+}
+
+.form-group{
+    display: block;
+    padding: 5%;
+    font-size: 20px;
+    color: white;
+}
+
+.form-group textarea {
+    display: block;
+    margin-top: 3%;
+    margin-left: 5%;
+    padding: 2%;
+    width: 1000px;
+    height: 100px;
+    background: black;
+    border-radius: 40px;
+    color: white;
+    border: 3px solid black;
+
+}
+
+.form-group1 button{
+    display: inline-block;
+    padding: 20px;
+    background: black;
+    margin-left: 50%;
+    font-size: 15px;
+    border-radius: 25px;
+    border: 3px solid transparent;
+    font-weight: bold;
+    color: white;
+}

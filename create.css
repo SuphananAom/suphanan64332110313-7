@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Console", Monospace;
+   
+}
+
+.boby{
+    font-size:  50%; 
+}
+
+* a{
+    text-decoration: none;
+}
+
+
+* li{
+    list-style: none;
+}
+
+.box{
+    display: block;
+    height: 450px;
+    width: 1519px;
+    position: relative;
+}
+
+.box::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.matichon.co.th/wp-content/uploads/2019/11/%E0%B8%AB%E0%B8%99%E0%B8%B8%E0%B8%A1%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%9C%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B8%A5%E0%B8%87%E0%B8%81%E0%B8%B2.jpg');
+    background-repeat: repeat-x; 
+    z-index: -2;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(25%);
+}
+
+.logo {
+    display: block;
+    padding: 7%;
+    background-image: url(https://i.gifer.com/embedded/download/65m.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 110px;
+}
+
+.manu{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.manu ul{
+    display: flex;
+   margin-left: 30%;
+}
+
+.manu ul li{
+    display: block;
+    margin: auto 5%;
+    margin-top: 10%;
+    width: 200px;
+}
+
+.manu ul li a{
+    color: white;
+    font-size: 20px;
+}
+
+.manu ul li i{
+    color: white;
+    margin: auto 6%;
+}
+
+.manu ul li a:hover{
+    color: black;
+    font-size: 20px;
+}
+
+main{
+    display: block;
+    width: 1519px;
+    height: 800px;
+    background: -webkit-linear-gradient(-90deg, #ec407a, #738ffe); 
+    background: -o-linear-gradient(-90deg, #ec407a, #738ffe); 
+    background: -moz-linear-gradient(-90deg, #ec407a, #738ffe);
+    background: linear-gradient(-90deg, #ec407a, #738ffe);
+}
+
+.form-group{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.form-group label{
+    display: block;
+    margin-top: 20%;
+    color: white;
+    margin-left: 15%;
+    font-size: 20px;
+}
+
+.form-group input{
+    display: block;
+    width: 800px;
+    height: 50px;
+    margin-top: 19%;
+    background: white;
+    margin-right: 28%;
+    font-size: 20px;
+    border: 1px transparent;
+    opacity: 0.5;
+    border-radius: 40px;
+    text-align: center;
+}
+.form-group1{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.form-group1 label{
+    display: block;
+    margin-top: 5%;
+    color: white;
+    margin-left: 20%;
+    font-size: 20px;
+}
+
+.form-group1 input{
+    display: block;
+    width: 800px;
+    height: 250px;
+    padding: 10px;
+    margin-top: 4%;
+    background: white;
+    margin-left: 2%;
+    font-size: 15px;
+    border: 1px transparent;
+    opacity: 0.5;
+    border-radius: 40px;
+}
+
+.form-group2 button {
+    display: inline-block;
+    padding: 20px;
+    background: white;
+    margin-left: 50%;
+    margin-top: 3%;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 3px solid transparent;
+    opacity: 0.5;
+    font-weight: bold;
+    width: 100px;
+}

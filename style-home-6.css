@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+   
+}
+
+* a{
+    text-decoration: none;
+}
+
+* li{
+    list-style: none;
+}
+
+.container{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.box{
+    display: flex;
+    width: 90%;
+    height: 100%;
+    padding: 5%;
+    background: -webkit-linear-gradient(-90deg, #4682B4, #e91e63); 
+    background: -o-linear-gradient(-90deg, #4682B4, #e91e63); 
+    background: -moz-linear-gradient(-90deg, #4682B4, #e91e63);
+    background: linear-gradient(-90deg, #4682B4, #e91e63);
+    
+}
+
+.logo{
+    display: block;
+    font-size: 36px;
+}
+
+.logo a{
+    color: white;
+    font-size: 50px;
+}
+
+.menu{
+    display: block; 
+    margin-left: 43%;
+}
+
+.menu ul{
+    display: flex;   
+   
+}
+
+.menu li{
+    margin: auto 20%;
+}
+
+.menu a{
+    display: block;
+    background: -webkit-linear-gradient(-90deg, #0000, #263238); 
+    background: -o-linear-gradient(-90deg, #0000, #263238); 
+    background: -moz-linear-gradient(-90deg, #0000, #263238);
+    background: linear-gradient(-90deg, #0000, #263238);
+    text-align: center;
+    padding: 20%;
+    width: 250%;
+    border-radius: 40px;
+   color: white; 
+}
+
+.menu a:hover{
+    background: -webkit-linear-gradient(-90deg, #e91e63, #20B2AA); 
+    background: -o-linear-gradient(-90deg, #e91e63, #20B2AA); 
+    background: -moz-linear-gradient(-90deg, #e91e63, #20B2AA);
+    background: linear-gradient(-90deg, #e91e63, #20B2AA);
+    color: white;
+}
+
+.header{
+    display: block;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.header h3{
+    margin-left: 2%;
+    font-size: 45px;
+}
+
+.header h4{
+    margin-left: 3%;
+    font-size: 30px;
+}
+
+.header i{
+    margin-top: 3%;
+    font-size: 45px;
+}
+
+.head1{
+    display: block;
+    margin: 5% 20%;
+}
+
+.head1 h4{
+    display: block;
+    font-size: 20px;
+    margin: 2% auto;
+}
+
+.head2{
+    display: block;
+    margin: 30% 30%;
+    text-align: center;
+}
+
+
+.tail{
+    display: block;
+    color: white;
+    background: -webkit-linear-gradient(left, #191970, #483D8B); 
+    background: -o-linear-gradient(right, #191970, #483D8B);
+    background: -moz-linear-gradient(right, #191970,   #483D8B); 
+    background: linear-gradient(to right, #191970, #483D8B);
+}
+.tail h1{
+    display: block;
+    padding: 2%;
+    text-align: center;
+
+}
+
+.hail1 {
+    display: flex;
+    margin: auto 1%;
+    width: 80%;
+    padding: 1%;
+    font-size: 10px;
+    text-align: center;
+}
+
+.hail2{
+    display: flex;
+    margin: auto 5%;
+    width: 15%;
+    padding: 1%;
+    text-align: left;
+}
+ 
+.hail2 h4{
+    margin-left: 0.5%;
+    text-align: center;
+}
+
+.hail3{
+    display: flex;
+    width: 15%;
+    padding: 1%;
+    text-align: left;
+    margin: auto 5%;
+}
+
+.hail3 h4{
+    margin-left: 0.5%;
+}
+
+.hail4{
+    display: flex;
+    width: 15%;
+    padding: 1%;
+    text-align: left;
+    margin: auto 5%;
+}
+
+.hail4 h4{
+    margin-left: 0.5%;
+}
+
+.hail5{
+    display: flex;
+    width: 15%;
+    padding: 1%;
+    text-align: left;
+    margin: auto 5%;
+}
+
+.hail5 h4{
+    margin-left: 0.5%;
+}

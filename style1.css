@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+} 
+
+
+* a{
+    text-decoration: none;
+}
+
+
+* li{
+    list-style: none;
+}
+
+
+.container{
+    
+    position: relative;
+    min-height: 100vh;
+}
+
+
+.bg{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: block; 
+    background: -webkit-linear-gradient(-90deg, #ec407a, #738ffe); 
+    background: -o-linear-gradient(-90deg, #ec407a, #738ffe); 
+    background: -moz-linear-gradient(-90deg, #ec407a, #738ffe);
+    background: linear-gradient(-90deg, #ec407a, #738ffe);
+}
+
+.conten{ 
+    width: 85%;
+    height: 30%;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    display: flex;
+}
+
+
+.conten .header,.grid-card{
+    width: 50%;
+    position: relative;
+}
+
+
+.conten .header{
+    margin-top: 7%;
+    color: #fff;
+    
+}
+
+
+.conten .header h3{
+    font-size:  2.3rem;
+    letter-spacing: 2px;
+}
+
+
+.conten .header h3 i{
+    color: orange;
+}
+
+
+.conten .header p{
+    opacity: .6;
+} 
+
+
+.grid-card{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 25px;
+    margin-left: 5%;
+}
+
+
+.grid-card .box{
+    width: 100%;
+    height: 230px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    transition: .4s;
+    position: relative;
+}
+
+.bg1{
+    background-image: url('https://i0.wp.com/media.mekhanews.com/2022/11/Khon-Krungsri-Festival-2.jpg?fit=1000%2C667&ssl=1');
+}
+.bg2{
+    background-image: url('https://s.isanook.com/ns/0/ui/1698/8492630/269695814_4758391417550210_5397183972207221469_n.jpg');
+}
+.bg4{
+    background-image: url('https://khonperformance.com/wp-content/uploads/sites/39/2019/03/thai-epos-tosakan.jpg');
+}
+.bg3{
+    background-image: url('https://s.isanook.com/ca/0/rp/r/w728/ya0xa0m1w0/aHR0cHM6Ly9zLmlzYW5vb2suY29tL2NhLzAvdWQvMjc4LzEzOTE3OTcvaXN0b2NrLTYyMjkxNzI4OC5qcGc/u003d.jpg');
+}
+
+
+.conten .box h2{
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    color: white;
+}
+
+
+.conten .box:hover{
+    transform: translateY(-15px);
+}
+
+
+.header button{
+    border: solid 2px #fff;
+    background: none;
+    font-size: 2.5rem;
+    padding: 5px 15px;
+    margin: 15px 0;
+}
+
+
+.header button a{
+    color: white;
+}
+
+.hail{
+    display: block;
+    margin-left: auto;
+}
+
+.word {
+	font-family: 'Anton', sans-serif;
+	perspective: 1000px; 
+}
+
+.word span {
+	cursor: pointer;
+	display: inline-block;
+	font-size: 100px;
+	user-select: none;
+	line-height: .8;
+}

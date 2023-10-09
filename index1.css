@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Console", Monospace;
+   
+}
+
+.boby{
+    font-size:  50%; 
+}
+
+* a{
+    text-decoration: none;
+}
+
+
+* li{
+    list-style: none;
+}
+
+.box{
+    display: block;
+    height: 450px;
+    width: 1522px;
+    position: relative;
+}
+
+.box::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.matichon.co.th/wp-content/uploads/2019/11/%E0%B8%AB%E0%B8%99%E0%B8%B8%E0%B8%A1%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%9C%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B8%A5%E0%B8%87%E0%B8%81%E0%B8%B2.jpg');
+    background-repeat: repeat-x; 
+    z-index: -2;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(25%);
+}
+
+.logo {
+    display: block;
+    font-size: 110px;
+    margin-left: 5%;
+}
+
+.logo h2{
+    padding: 7%;
+    background-image: url(https://cdn.palungjit.org/photos/l/102/102500-1502311499-2fc356e2b10be96ebba174cd5cc5517a.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 150px;
+}
+
+.main{
+    display: flex;
+}
+
+.main ul{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 22%;
+    
+
+}
+
+.main ul li{
+    display: block;
+    width: 270px;
+    margin-left: 5%;
+    text-align: center;
+    padding: 2%;
+    border-radius: 35px;
+}
+
+.main ul li:hover{
+    display: block;
+    width: 270px;
+    margin-left: 5%;
+    text-align: center;
+    padding: 2%;
+    border-radius: 35px;
+}
+
+.main ul li a{
+    color: white;
+    font-weight: bolder;
+}
+
+.main ul li a:hover{
+    color: black;
+    font-weight: bolder;
+}
+
+.main ul li i{
+    margin: auto 5%;
+}
+
+.ytr{
+    display: block;
+    height: 5000px;
+    width: 100%;
+    background: -webkit-linear-gradient(-90deg, #ec407a, #738ffe); 
+    background: -o-linear-gradient(-90deg, #ec407a, #738ffe); 
+    background: -moz-linear-gradient(-90deg, #ec407a, #738ffe);
+    background: linear-gradient(-90deg, #ec407a, #738ffe);
+}
+
+.post-1{
+    display: flex;
+   margin-top: 5%;
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+.post-1 p{
+    display: block;
+    color: white;
+    width: 500px;
+}
+
+.post-1 i{
+    margin: auto 1%;
+    color: white;
+}
+
+.post-2{
+    display: flex;
+   margin-top: 1%;
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+.post-2 p{
+    display: flex;
+    color: white;
+    width: 500px;
+}
+
+.post-2 i{
+    margin: auto 1%;
+    color: white;
+}
+
+.post {
+    display: flex;
+    margin: 1% auto;
+    width: 1000px;
+    padding: 10px;
+    background-color: #263238;
+    margin-left: 20%;
+    border-radius: 35px;
+}
+
+.post p{
+    margin-top: 1%;
+    display: block;
+    width: 900px;
+    margin-left: 5%;
+    font-size: 20px;
+    color: white;
+}
+
+.post button{
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    border: 3px solid transparent;
+    background: black; 
+    font-weight: bold;
+    border-radius: 25px;
+    margin-left: 40%;
+}
+
+.post button:hover {
+    background-color: #757575;
+}
+
+
+.post i{
+    color: white;
+}
+
+footer {
+    text-align: center;
+    position: relative; 
+    margin-top: 1%;
+    bottom: 50px; 
+    margin-left: 80%;
+}
+
+footer a {
+    text-decoration: none;
+    background: black;
+    color: white;
+    padding: 20px 22px;
+    border-radius: 10px;
+    margin: 0 20px;
+    font-size: 30px;
+    border-radius: 100%;
+}
+
+footer a:hover {
+    background-color: #757575;
+}
+
+.tail{
+    display: block;
+    color: white;
+    background: -webkit-linear-gradient(left, #191970, #483D8B); 
+    background: -o-linear-gradient(right, #191970, #483D8B);
+    background: -moz-linear-gradient(right, #191970,   #483D8B); 
+    background: linear-gradient(to right, #191970, #483D8B);
+}
+.tail h1{
+    display: block;
+    padding: 2%;
+    text-align: center;
+
+}
+
+.hail1 {
+    display: flex;
+    margin: auto 1%;
+    width: 80%;
+    padding: 1%;
+    font-size: 10px;
+    text-align: center;
+}
+
+.hail2{
+    display: flex;
+    margin: auto 2%;
+    width: 15%;
+    padding: 1%;
+    text-align: left;
+}
+ 
+.hail2 h4{
+    margin-left: 0.5%;
+    text-align: center;
+}
+
+.hail3{
+    display: flex;
+    width: 15%;
+    padding: 1%;
+    text-align: left;
+    margin: auto 5%;
+}
+
+.hail3 h4{
+    margin-left: 0.5%;
+}
+
+.hail4{
+    display: flex;
+    width: 15%;
+    padding: 1%;
+    text-align: left;
+    margin: auto 5%;
+}
+
+.hail4 h4{
+    margin-left: 0.5%;
+}
+
+.hail5{
+    display: flex;
+    width: 15%;
+    padding: 1%;
+    text-align: left;
+    margin: auto 5%;
+}
+
+.hail5 h4{
+    margin-left: 0.5%;
+}

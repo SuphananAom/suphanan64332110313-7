@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Console", Monospace;
+   
+}
+
+.boby{
+    font-size:  50%; 
+}
+
+* a{
+    text-decoration: none;
+}
+
+
+* li{
+    list-style: none;
+}
+
+.box{
+    display: flex;
+    height: 450px;
+    width: 1522px;
+    position: relative;
+}
+
+.box::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.matichon.co.th/wp-content/uploads/2019/11/%E0%B8%AB%E0%B8%99%E0%B8%B8%E0%B8%A1%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%9C%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B8%A5%E0%B8%87%E0%B8%81%E0%B8%B2.jpg');
+    background-repeat: repeat-x; 
+    z-index: -2;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(25%);
+}
+
+.logo{
+    display: block;
+    width: 100px;
+    height: 10px;
+    padding: 300px 10px;
+    margin-left: 40%;
+}
+
+.logo i {
+    display: block;
+    padding: 100px;
+    background: -webkit-linear-gradient(-90deg, #607d8b, #4dd0e1); 
+    background: -o-linear-gradient(-90deg, #607d8b, #4dd0e1); 
+    background: -moz-linear-gradient(-90deg, #607d8b, #4dd0e1);
+    background: linear-gradient(-90deg, #607d8b, #4dd0e1);
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    font-size: 40px;
+}
+
+.menu{
+    display: block;
+    margin-left: 20%;
+    margin-top: 30%;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li{
+    display: block;
+    margin: auto 10%;
+}
+
+.menu ul li a{
+    font-size: 20px;
+    color: black;
+}
+
+.main-content{
+    display: block;
+    height: 3000px;
+    background: -webkit-linear-gradient(-90deg, #f48fb1, #a3e9a4); 
+    background: -o-linear-gradient(-90deg, #f48fb1, #a3e9a4); 
+    background: -moz-linear-gradient(-90deg, #f48fb1, #a3e9a4);
+    background: linear-gradient(-90deg, #f48fb1, #a3e9a4);
+}
+
+.main-content header{
+    display: block;
+    padding: 8%;
+    margin-left: 33%;
+}
+
+.main-content header p{
+    font-size: 36px;
+}
+
+.main-content header a{
+    display: block;
+    margin-top: 1%;
+    font-size: 20px;
+}
+
+.profile{
+    display: block;
+    margin-top: 10%;
+    margin-left: 15%;
+    width: 500px;
+    text-align: center;
+    padding: 10px;
+
+}
+.profile p{
+    display: block;
+    background: black;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 5%;
+    border-radius: 40px;
+    color: white;
+}
+
+.hg{
+    display: flex;
+    padding: 10px;
+    width: 200px;
+    margin-left: 35%;
+}
+
+.hg a{
+    display: block;
+    background: -webkit-linear-gradient(-90deg, #1a237e, #b0120a); 
+    background: -o-linear-gradient(-90deg, #1a237e, #b0120a); 
+    background: -moz-linear-gradient(-90deg, #1a237e, #b0120a);
+    background: linear-gradient(-90deg, #1a237e, #b0120a);
+    margin: auto 3%;
+    padding: 10px;
+    width: 50px;
+    border-radius: 15px;
+    color: white;
+}
+
+.hg a:hover{
+    display: block;
+    background: -webkit-linear-gradient(-90deg, #ffc107, #1a237e); 
+    background: -o-linear-gradient(-90deg, #ffc107, #1a237e); 
+    background: -moz-linear-gradient(-90deg, #ffc107, #1a237e);
+    background: linear-gradient(-90deg, #ffc107, #1a237e);
+    margin: auto 3%;
+    padding: 10px;
+    width: 50px;
+    border-radius: 15px;
+    color: white;
+}
+
+main{
+    display: flex;
+}
+
+.add-post-link{
+    display: block;
+    background: black;
+    color: white;
+    margin-top: 20%;
+    padding: 20px;
+    margin-left: 30%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.add-post-link:hover{
+    display: block;
+    background: -webkit-linear-gradient(-90deg, #056f00, #1a237e); 
+    background: -o-linear-gradient(-90deg, #056f00, #1a237e); 
+    background: -moz-linear-gradient(-90deg, #056f00, #1a237e);
+    background: linear-gradient(-90deg, #056f00, #1a237e);
+    color: white;
+    margin-top: 20%;
+    padding: 20px;
+    margin-left: 30%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.add-post-link i{
+    font-size: 45px;
+}

@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+   
+}
+
+.boby{
+    font-size:  120%; 
+    
+   
+}
+.conten{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.conten::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://storage-wp.thaipost.net/2021/12/269613134_5027291213955868_1295230593287059802_n.jpg');
+    background-repeat: repeat-x; 
+    z-index: -2;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(25%);
+    color: black;
+    
+
+}
+
+.content{
+    width: 420px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    background: transparent;
+    border-radius: 10px;
+    padding: 39px 40px;
+    color: white;
+}
+.header {
+    margin-right: 20%;
+    font-size: 36px;
+    text-align: center;
+}
+.input-group{
+    width: 100%;
+    height: 50%;
+    margin-top: 10%;
+    margin-right: 100%;
+    background: transparent;
+}
+
+.input-g{
+    margin: 10% auto;
+}
+
+.input-group label{
+    display: block;
+    margin: 5% auto;
+    margin-left: 30%;
+    background: transparent;
+}
+
+
+.input-group{
+    color: white;
+}
+
+
+.input-group input{
+    color: white;
+    display: 30px;
+    width: 80%;
+    padding: 15px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px  solid;
+    background: transparent;
+    border-radius: 40px;
+    border: 1px solid white;
+    
+}
+
+
+.input-group i{
+    color: #ffff;
+}
+
+.btn{
+    width: 80%;
+    height: 45%;
+    padding: 10px;
+    font-size: 15px;
+    color:black;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-weight: 600;
+}
+.input-a a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10%;
+    text-align: center;
+}
+.error{
+    width: 92%;
+    margin: 30px auto;
+    border: 1px solid transparent;
+    color: blanchedalmond;
+    background: transparent;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.success{
+    color: #3c763d;
+    background: #dff9d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
